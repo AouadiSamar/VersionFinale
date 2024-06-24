@@ -1,0 +1,98 @@
+.rembou-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9fafc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rembou-container h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.89px;
+    text-align: center;
+    color: #023781;
+    margin-bottom: 20px;
+}
+
+.l-image2 {
+    background: url('../Chargebacks/pp.png') no-repeat center center;
+    background-size: contain;
+    width: 580px;
+    height: 280px;
+    margin-bottom: 50px;
+    margin-left: 820px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-list {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.file-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.file-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.upload-butp-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between the buttons */
+    align-items: center;
+    gap: 20px; /* Add space between the buttons */
+    margin-top: 20px;
+}
+
+.view-butp .MuiSvgIcon-root {
+    color: #034DA3; /* Change this color to your preferred one */
+}
+
+.delete-butp .MuiSvgIcon-root {
+    color: #B42C2C;
+}
+
+.view-butp:hover .MuiSvgIcon-root,
+.download-butp:hover .MuiSvgIcon-root {
+    color: #022b67; /* Darker color on hover */
+}
+.upload-butp,
+.butp {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #034DA3;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.upload-butp:hover,
+.butp:hover {
+    opacity: 0.8;
+}

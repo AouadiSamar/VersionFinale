@@ -1,0 +1,16 @@
+/* Configuration.css */
+
+.configuration-container {
+    padding: 20px;
+  }
+  
+  .configuration-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .configuration-container label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  

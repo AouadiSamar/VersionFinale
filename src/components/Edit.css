@@ -1,0 +1,92 @@
+/* Container for the Edit User section */
+.section-style {
+    display: flex;
+    width: 1040px;
+    height: 818px;
+    margin: auto;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Container for the image */
+  .image-container {
+    flex: 1;  border-right: 2px solid #ccc; /* Add a vertical border to the right of the image section */
+
+    background: url('../pages/t.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 5px 0 0 5px; /* Rounded corners on the left side */
+  }
+  
+  /* Container for the form */
+  .form-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right side */
+  }
+  
+  /* Styles for the title */
+  .section-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: #023781;
+    margin-bottom: 20px;
+  }
+  
+  .form-labe {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 550; /* Adjusted font-weight for bolder text */
+    line-height: 19.36px;
+    color: #676b6b;
+    display: block;
+    margin-bottom: 5px; /* Reduced margin for better alignment */
+  }
+  
+  /* Styles for input fields */
+  .form-input {
+    width: 100%;
+    padding: 13.5px 12px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #D9DCE1;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for buttons */
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn-annuler,
+  .btn-ajouter {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    flex: 1; /* Allow buttons to take equal space */
+    margin: 5px; /* Space between buttons */
+  }
+  
+  .btn-annuler {
+    background-color: white;
+    color: #3C4257;
+  }
+  
+  .btn-ajouter {
+    background: #034DA3;
+    color: white;
+  }
+  
+  .btn-annuler:hover,
+  .btn-ajouter:hover {
+    opacity: 0.8;
+  }
+  

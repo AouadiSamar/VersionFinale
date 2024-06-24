@@ -1,0 +1,93 @@
+/* Container for the Edit User section */
+.chargeback-section-style {
+  display: flex;
+  width: 1040px;
+  height: auto; /* Adjust height to auto */
+  margin: auto;
+  padding: 20px;
+  background: #FFFFFF;
+}
+/* Styles for the image container */
+.chargeback-image-container {
+  flex: 1  1 ;
+  background: url('./00.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 99995;
+}
+
+/* Container for the form */
+.chargeback-form-container {
+  flex: 1;
+}
+
+/* Styles for the title */
+.chargeback-section-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: 620;
+  line-height: 33.05px;
+  color: #023781;
+  margin-bottom: 40px;
+  white-space: nowrap; /* Ensure title is on one line */
+}
+
+/* Styles for labels */
+.chargeback-form-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: bold; /* Set font weight to bold */
+  line-height: 19.36px;
+  color: #697386;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styles for input fields */
+.chargeback-form-input {
+  width: 80%;
+  padding: 13.5px 12px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 1px solid #D9DCE1;
+  margin-bottom: 20px;
+}
+
+/* Styles for buttons */
+.chargeback-btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; /* Adjust margin to move buttons up */
+}
+
+.chargeback-btn-annuler,
+.chargeback-btn-ajouter {
+  padding: 10px 20px; /* Adjust padding */
+  border: none;
+  border-radius: 4px; /* Border radius */
+  cursor: pointer;
+  font-size: 16px; /* Font size */
+  flex: 1;
+  margin: 5px; /* Space between buttons */
+  background-color: #034DA3; /* Background color */
+  color: white; /* Text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: background-color 0.3s ease; /* Transition for hover */
+}
+
+.chargeback-btn-annuler {
+  background-color: white;
+  color: #3C4257;
+}
+
+.chargeback-btn-ajouter {
+  background: #034DA3;
+  color: white;
+}
+
+.chargeback-btn-annuler:hover,
+.chargeback-btn-ajouter:hover {
+  opacity: 0.8;
+}
+
+

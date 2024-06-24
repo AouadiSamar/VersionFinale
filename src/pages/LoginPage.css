@@ -1,0 +1,124 @@
+/* Styles généraux de la page de connexion */
+.login-page {
+  display: flex;
+  height: 100vh;
+  background-color: white;
+}
+
+/* Section de l'image de connexion */
+.login-image {
+  background: url('./io.png') no-repeat center center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+/* Conteneur du logo de la page de connexion */
+.login-logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* Conteneur de la section de connexion */
+.login-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Conteneur du formulaire de connexion */
+.login-form-container {
+  background: white;
+  padding: 40px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo de la page de connexion */
+.login-logo {
+  height: 40px;
+  width: auto;
+}
+
+/* Bouton de réinitialisation du mot de passe */
+.reset-password-button {
+  background-color: white;
+  color: #034DA3;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 0;
+}
+
+/* Erreur de connexion */
+.login-error {
+  color: red;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* Titre de la page de connexion */
+.login-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.89px;
+  text-align: center;
+  color: #213A7D;
+  margin-bottom: 20px;
+}
+
+/* Formulaire de connexion */
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Étiquette du formulaire */
+.form-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #697386;
+  margin-bottom: 5px;
+}
+
+/* Champ de saisie du formulaire */
+.form-input {
+  background: #FFFFFF;
+  border: 1px solid #D9DCE1;
+  border-radius: 5px;
+  padding: 13.5px 12px;
+  width: 100%;
+}
+
+/* Bouton de connexion */
+.login-button {
+  background: #034DA3;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 6px 16px;
+  cursor: pointer;
+  width: 209px;
+  height: 44px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: #023781;
+}

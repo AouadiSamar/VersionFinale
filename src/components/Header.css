@@ -1,0 +1,73 @@
+/* Container for the header */
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white; /* Adjust as necessary */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Left section with logo */
+.c {
+  display: flex;
+  align-items: center;
+}
+.logo {
+
+  background-size: contain;
+  height: 40px; /* Ajustez la hauteur en fonction de la taille de votre logo */
+  width: 100%; /* Pour s'assurer qu'il prend la largeur complète du conteneur */
+  margin-bottom: 28px;
+ 
+}
+
+
+/* Center section for balance */
+.center {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Right section with user info and icons */
+.right-corner {
+  display: flex;
+  align-items: center;
+}
+
+.right-corner .MuiIconButton-root {
+  margin-left: 10px;
+}
+
+.MuiMenu-list {
+  padding: 0;
+}
+
+.MuiMenuItem-root {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 0.875em;
+}
+
+.MuiMenuItem-root .MuiListItemIcon-root {
+  min-width: 40px;
+  color: #555; /* Adjust color as necessary */
+}.user-name {
+  margin-right: 10px; /* Space between user name and icon */
+  font-size: 16px;
+  color: #333;
+}
+
+
+.MuiMenuItem-root .MuiListItemText-primary {
+  font-size: 1em;
+}

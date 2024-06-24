@@ -1,0 +1,32 @@
+
+
+
+.dashboard-layout {
+    display: flex;
+    flex-direction: column; /* Stack Header and content-container vertically */
+    height: 100vh;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 257px;
+    height: 100vh;
+    background-color: #E9EFF8;
+    z-index: 1;
+  }
+  
+  .content-container {
+    flex: 1; /* Main content area takes up remaining space */
+    display: flex; /* Sidebar and main-content side-by-side */
+    padding-top: 60px; /* Space for Header */
+  }
+  
+  .main-content {
+    flex: 1; /* Main content fills remaining space after Sidebar */
+    padding: 0px 20px; /* Add some padding around content */
+    gap: 32px; /* Spacing between elements within main-content */
+  }
+  
+  

@@ -1,0 +1,108 @@
+
+  
+  .sidebar-header, .sidebar-footer {
+    width: Fixed (270px)px;
+    height: Hug (57px)px;
+    padding: 2px 20px 2px 20px;
+    gap: 10px;
+    opacity: 0px;
+    
+  }
+  
+
+  
+  .sidebar-logo {
+    width: 174px;
+    height: 53px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
+  
+  .store-name {
+    width: 133px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+
+
+  }
+  
+  .menu-items {
+    width: Hug (230px)px;
+    height: Hug (436px)px;
+    gap: 48px;
+    opacity: 0px;
+
+    
+    
+    
+  }
+  
+  .menu-items li {
+    width:  (230px)px;
+    height: (39px)px;
+    padding: 0px 30px 35px 10px;
+    gap: 12px;
+    opacity: 0px;
+    
+    
+    
+  }
+  
+
+  
+  .sidebar-footer {
+    width: Fixed (230px)px;
+    height: Hug (19px)px;
+    gap: 12px;
+    opacity: 0px;
+    
+  }cture générale */
+.dashboard-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 257px;
+    height: 100vh;
+    background-color: #E9EFF8;
+    z-index: 2; /* Assurez-vous que le sidebar est bien visible */
+    opacity: 1; /* Assurez-vous que le sidebar est visible */
+  }
+  
+  /* Espace pour le header et la navigation */
+  .content-area {
+    margin-left: 257px; /* Espace pour le Sidebar */
+    /* Pas besoin de padding-top ici si le Header est positionné en fixed */
+  }
+  
+  /* Positionnement du contenu principal sous la section des paiements */
+  .dashboard-main-content {
+    margin-top: 120px; /* Hauteur approximative du Header + section des paiements */
+    padding: 20px; /* Espace intérieur */
+    opacity: 1; /* Assurez-vous que le contenu est visible */
+    background-color: #fff; /* Fond pour le contenu principal */
+  }
+  
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-radius: 6px 0 0 0;
+    opacity: 1;
+  }.sidebar .menu-items li {
+    list-style-type: none; /* Cela supprime les marqueurs de liste */
+  }
+  

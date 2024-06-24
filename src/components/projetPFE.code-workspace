@@ -1,0 +1,91 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"name": "Baackend @ fc6c7d5",
+			"uri": "gitlens://7b22726566223a2266633663376435633434386364646234613864306135393862363066383933353763383930356630222c227265706f50617468223a22633a2f55736572732f73616d61722f4465736b746f702f70726f6a6574504645452f70726f6a657450464537372f70726f6a65745046452f426161636b656e64227d/c:/Users/samar/Desktop/projetPFEE/projetPFE77/projetPFE/Baackend?{\"ref\":\"fc6c7d5\"}"
+		}
+	],
+	"settings": {
+		"editor.tokenColorCustomizations": {
+			"textMateRules": [
+				{
+					"scope": "entity.name.function.letter.nlp",
+					"settings": {
+						"foreground": "#dc1b1b"
+					}
+				},
+				{
+					"scope": "variable.parameter.nlp",
+					"settings": {
+						"foreground": "#f8fa87"
+					}
+				},
+				{
+					"scope": "keyword.attribute.nlp",
+					"settings": {
+						"foreground": "#f293fb"
+					}
+				},
+				{
+					"scope": "constant.numeric.tree",
+					"settings": {
+						"foreground": "#93bffb"
+					}
+				},
+				{
+					"scope": "keyword.fired.tree",
+					"settings": {
+						"foreground": "#dc1b1b"
+					}
+				},
+				{
+					"scope": "keyword.rewrite.tree",
+					"settings": {
+						"foreground": "#f8fa87"
+					}
+				},
+				{
+					"scope": "keyword.node.tree",
+					"settings": {
+						"foreground": "#4e8e3c"
+					}
+				},
+				{
+					"scope": "variable.parameter.txxt",
+					"settings": {
+						"foreground": "#f8fa87"
+					}
+				},
+				{
+					"scope": "keyword.concept.kbb1",
+					"settings": {
+						"foreground": "#909228"
+					}
+				},
+				{
+					"scope": "keyword.concept.kbb",
+					"settings": {
+						"foreground": "#e3ee50"
+					}
+				},
+				{
+					"scope": "keyword.concept.kbb1",
+					"settings": {
+						"foreground": "#2eb657"
+					}
+				},
+				{
+					"scope": "keyword.concept.kbb2",
+					"settings": {
+						"foreground": "#e049d9"
+					}
+				}
+			]
+		},
+		"git.ignoreLimitWarning": true,
+		"DockerRun.DisableDockerrc": true
+	}
+}

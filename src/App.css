@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --color-bg: #ffffff; /* White */
+  --color-bg-variant: #f0f0f0; /* Very light gray for variant */
+  --color-primary: #007bff;
+  --color-primary-variant: #0056b3;
+  --color-accent: #ff4500;
+  --color-accent-variant: #cc3700;
+  --color-white: #000; /* Changed to black for better contrast on white background */
+  --color-light: #f8f8f8;
+  --transition: all 400ms ease;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.image-side {
+  flex: 1;
+  background: url('/src/loo.png') no-repeat center center; 
+  background-size: cover;
+} .text{color:black}
+
+.form-side {
+  flex: 1;
+  background-color: var(--color-bg-variant);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.auth__form {
+  background-color: var(--color-white);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth__form input, .auth__form button {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.auth__form input {
+  background-color: var(--color-light);
+  color: var(--color-bg-variant);
+}
+
+.auth__form button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.auth__form button:hover {
+  background-color: var(--color-primary-variant);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

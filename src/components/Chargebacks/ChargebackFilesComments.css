@@ -1,0 +1,71 @@
+.comment-section {
+  padding: 20px;
+}.comment-date {
+  font-size: 0.8em;
+  color: #777;
+  margin-top: 5px;
+}
+
+
+.h33 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #034DA3;
+  margin-bottom: 20px;
+}
+
+.comments-list .comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #D9DCE1;
+  border-radius: 4px;
+}
+
+.comment-text {
+  flex-grow: 1;
+  font-family: 'Inter', sans-serif;
+  color: #3C4257;
+}
+
+.comment-actions {
+  display: flex;
+  align-items: center;
+}
+
+.comment-actions svg {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.comment-actions .like-icon {
+  color: #034DA3;
+}
+.comment-input input {
+  height: 40px; /* Ajustez cette valeur pour définir une hauteur spécifique */
+  padding: 10px;
+  border: 1px solid #D9DCE1; /* Ajustez la bordure */
+  border-radius: 4px; /* Ajoutez des coins arrondis si nécessaire */
+  box-sizing: border-box; /* Assure que le padding et la bordure sont inclus dans la hauteur totale */
+  font-family: 'Inter', sans-serif;
+}
+
+.comment-input button {
+  height: 40px; /* Ajustez cette valeur pour correspondre à la hauteur de l'input */
+  padding: 0 20px; /* Ajustez les valeurs de padding pour centrer le texte */
+  border: 1px solid #034DA3; /* Ajoutez une bordure */
+  border-radius: 4px; /* Ajoutez des coins arrondis */
+  background-color: #034DA3; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  margin-left: 10px; /* Espace entre le bouton et l'input */
+}
+
+.comment-input button:hover {
+  background-color: #023a7a; /* Couleur de fond au survol */
+  border-color: #023a7a; /* Couleur de la bordure au survol */
+}

@@ -1,0 +1,99 @@
+/* Container for the rembourssement details */
+.rembourssement-details-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left section with background image */
+.left-section {
+  flex: 1;
+  background: url('./q.png') no-repeat center center;
+  background-size: cover;
+}
+
+/* Right section with content */
+.right-section {
+  flex: 1;
+  padding: 35px; /* Augmenter le padding pour plus d'espace */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: auto; /* Ajouter un défilement vertical si nécessaire */
+}
+
+/* Styles for paragraph elements in the right section */
+.right-section p {
+  margin: 20px 0; /* Ajuster la marge entre les paragraphes */
+  color: black; /* Couleur du texte */
+  font-size: 18px; /* Augmenter la taille de la police */
+}
+
+/* Styles for the title in the right section */
+.right-section h1 {
+  font-size: 28px; /* Augmenter la taille de la police */
+  color: #034DA3; /* Couleur du texte */
+  font-weight: bold;
+  margin-bottom: 20px; /* Espace en bas du titre */
+}
+
+
+.prediction-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Styles for the modal content */
+.muiDialogTitle-root, .muiDialogContent-root {
+  font-family: 'Inter', sans-serif;
+}
+
+.muiDialogTitle-root {
+  font-size: 24px;
+  font-weight: bold;
+  color: #034DA3;
+}
+
+.muiDialogContent-root {
+  font-size: 18px;
+  color: black;
+}
+/* Styles for the button container */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Styles for the buttons */
+.button {
+  padding: 10px 20px; /* Adjust padding to match the provided image */
+  border: none;
+  border-radius: 4px; /* Keep the border radius */
+  cursor: pointer;
+  font-size: 16px; /* Font size consistent with the provided image */
+  margin: 5px; /* Space between buttons */
+  background-color: #034DA3; /* Button background color */
+  color: white; /* Button text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.files-comments-button {
+  background-color: #034DA3; /* Ensure consistent color for all buttons */
+  color: white; /* Ensure consistent text color */
+  border: none; /* Remove any border */
+}
+
+.predict-button:hover {
+  background-color: #0056b3; /* Ensure consistent hover effect */
+}
+
+.predict-button {
+  background-color: #034DA3; /* Ensure consistent color */
+  color: white; /* Ensure consistent text color */
+  border: none; /* Remove any border */
+}
